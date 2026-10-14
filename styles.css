@@ -265,7 +265,7 @@
      padding: 56px 24px;
      text-align: center;
      cursor: pointer;
-     transition: border-color .3s ease, box-shadow .3s ease, background .3s ease, transform .35s cubic-bezier(.2, .8, .2, 1);
+     transition: border-color .3s ease, box-shadow .3s ease, background .3s ease;
      overflow: hidden;
      box-shadow:
        inset 0 1px 0 rgba(255, 255, 255, 0.03),
@@ -279,8 +279,6 @@
        0 20px 48px rgba(0, 0, 0, 0.5),
        0 0 60px rgba(168, 85, 247, 0.55),
        0 0 100px rgb(217, 70, 239, 0.25);
-     transform: translateY(-6px) scale(1.01);
-     filter: brightness(1.08);
    }
    
    /* Контейнер воды */
