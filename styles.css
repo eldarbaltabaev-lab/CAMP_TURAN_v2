@@ -263,7 +263,7 @@
      background: linear-gradient(180deg, rgba(19,13,34,0.9) 0%, rgba(15,10,28,0.95) 100%);
      border-radius: var(--radius);
      padding: 56px 24px;
-     text-align: center;
+     /*text-align: center;*/
      cursor: pointer;
      transition: border-color .3s ease, box-shadow .3s ease, background .3s ease;
      overflow: hidden;
